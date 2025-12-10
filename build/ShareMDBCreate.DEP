@@ -1,0 +1,31 @@
+[Version]
+Version=12.0.0.0
+
+[ShareMDBCreate.exe <0009>]
+Dest=$(AppPath)
+Date=07/23/2009
+Time=10:31
+Version=12.0.0.0
+CABFilename=ShareMDBCreate.CAB
+CABINFFile=ShareMDBCreate.INF
+Uses1=msvbvm60.dll
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=tpclnt32.dll
+Uses8=dao360.dll
+Uses9=VBAAUTHEN.dll
+
+[tpclnt32.dll <0009>]
+Dest=$(WinSysPath)
+Date=07/07/2005
+Time=13:11
+Version=8.1.9.1
+
+[VBAAUTHEN.dll <0009>]
+Dest=$(WinSysPath)
+Date=04/08/2009
+Time=08:31
+Version=1.0.0.6
